@@ -1,26 +1,17 @@
+# Python virtual environments
 .venv/
+venv/
+env/
+
+# Python cache and test artifacts
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 .pytest_cache/
 .coverage
-*.log
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Operating-system files
 .DS_Store
 Thumbs.db
-
-# Local ML artifacts: kept on this machine for training/inference, not GitHub.
-data/raw/
-data/interim/
-data/processed/
-data/external/
-models/
-logs/
-
-# Common experiment outputs
-mlruns/
-wandb/
-tensorboard/
-checkpoints/
-*.ckpt
-*.h5
-*.keras
